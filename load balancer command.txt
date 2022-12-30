@@ -1,0 +1,11 @@
+ sudo apt-get update
+ sudo apt-get install apache2
+sudo service apache2 start
+
+cd /var/www/html
+ls
+sudo rm -r index.html
+sudo nano index.html
+copy html code and paste and save 
+open browser and paste ip of both ec2 on different tab
+open loadbalancer and copy DNS and paste in browser and refresh it 
